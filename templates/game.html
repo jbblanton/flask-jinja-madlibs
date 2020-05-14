@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Let's play a game!</title>
+</head>
+
+<body>
+    <h2>How exciting! Let's play some MadLibs!</h2>
+    <br>
+    <br>
+    <form action="madlib">
+
+
+{# YOU CAN ITERATE THROUGH THIS ASSHOLE #}
+      <fieldset>
+        <label for="person">First, pick a person:</label>
+        <select id="person" name="person">
+          <option value="none" selected disabled hidden>Select an Option</option>
+          <option value="Brad Pitt">Brad Pitt</option>
+          <option value="Your mother">Your mother</option>
+          <option value="Queen Elizabeth">Queen Elizabeth</option>
+          <option value="Ruth Bader Ginsberg">Ruth Bader Ginsberg</option>
+          <option value="Chris Pratt">Chris Pratt</option>
+        </select>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Cool, now pick a color:</legend>
+        <label for="color">magenta</label>
+        <input id="color" type="radio" name="color" value="magenta">
+        <label for="color">deep blue</label>
+        <input id="color" type="radio" name="color" value="deep blue">
+        <label for="color">goldenrod</label>
+        <input id="color" type="radio" name="color" value="goldenrod">
+        <label for="color">puke-green</label>
+        <input id="color" type="radio" name="color" value="puke-green">
+        <label for="color">orange</label>
+        <input id="color" type="radio" name="color" value="orange">
+      </fieldset>
+
+      <br>
+
+      <p>Whew! Making progress! Only 2 more things we need....</p>
+
+      <br>
+
+      <fieldset>
+        <label for="noun">Enter a noun:</label>
+        <p>(I hope you remember, that's a person, place, or thing.)</p>
+        <input id="noun" type="text" name="noun">
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <p>Last thing!</p>
+        <label for="adj">Enter in an ADJECTIVE:</label>
+        <p>(you know what that is, right?)</p>
+        <br>
+        <p>pffft! Sure ya knew!  Just give me a word to <em>describe</em> a noun. Like, 'tall', 'dark', or 'handsome'...</p>
+        <input id="adj" type="text" name="adjective">
+      </fieldset>
+
+      <br>
+
+      <h3>Alright! Now let's make some magic!</h3>
+      <input type="submit" name="submit" value="Submit!">
+
+    </form>
+</body>
+</html>
